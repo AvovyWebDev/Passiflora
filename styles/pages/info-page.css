@@ -1,0 +1,238 @@
+#entry-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 100%;
+}
+
+#entry-section h1 {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+}
+
+#entry-image {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  border-bottom: 50px white solid;
+  border-top: 50px white solid;
+}
+
+#info-section {
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+#about-us-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  padding: 100px 200px;
+  background-color: rgb(32, 32, 32);
+}
+
+#about-us-section-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#about-us-section-text h1 {
+  font-size: 50px;
+}
+
+#about-us-section-text p {
+  font-size: 25px;
+  text-align: center;
+}
+
+#about-us-section-image {
+  object-fit: cover;
+  width: 80%;
+  height: 500px;
+  border: 15px var(--detail-color) solid;
+}
+
+#precision-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+  padding: 50px 200px;
+  background-color: rgb(19, 19, 19);
+}
+
+#precision-section-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  flex: 1;
+}
+
+#precision-section-text h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#precision-section-text p {
+  font-size: 25px;
+  text-align: center;
+}
+
+#precision-section img {
+  flex: 2;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border: 10px var(--detail-color) solid;
+}
+
+#customer-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+  padding: 50px 200px;
+  background-color: rgb(32, 32, 32);
+}
+
+#customer-section-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  flex: 1;
+}
+
+#customer-section-text h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#customer-section-text p {
+  font-size: 25px;
+  text-align: center;
+}
+
+#customer-section img {
+  flex: 2;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border: 10px var(--detail-color) solid;
+}
+
+#versatility-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+  padding: 50px 200px;
+  background-color: rgb(19, 19, 19);
+}
+
+#versatility-section-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  flex: 1;
+}
+
+#versatility-section-text h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#versatility-section-text p {
+  font-size: 25px;
+  text-align: center;
+}
+
+#versatility-section img {
+  flex: 2;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border: 10px var(--detail-color) solid;
+}
+
+@media (max-width: 600px) {
+
+  #entry-section {
+    margin-top: 75px;
+  }
+
+  #about-us-section {
+    padding: 50px 0;
+  }
+
+  #about-us-section-text {
+    padding: 25px;
+  }
+
+  #precision-section, #customer-section, #versatility-section {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  #precision-section-text, #customer-section-text, #versatility-section-text {
+    padding: 25px;
+  }
+
+  #precision-section img, #customer-section img, #versatility-section img {
+    width: 80%;
+    height: 500px;
+    border: 15px var(--detail-color) solid;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1300px) {
+
+  #entry-section {
+    margin-top: 75px;
+  }
+
+  #about-us-section-text {
+    padding: 25px;
+  }
+
+  #about-us-section, #precision-section, #customer-section, #versatility-section {
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 30px;
+  }
+
+  #precision-section-text, #customer-section-text, #versatility-section-text {
+    padding: 25px;
+  }
+
+  #precision-section img, #customer-section img, #versatility-section img {
+    width: 80%;
+    height: 500px;
+    border: 15px var(--detail-color) solid;
+  }
+}
