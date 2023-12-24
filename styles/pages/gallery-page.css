@@ -15,7 +15,6 @@
   background-color: rgba(0, 0, 0, 0.685);
   border-top: 15px rgb(255, 255, 255) solid;
   border-bottom: 15px rgb(255, 255, 255) solid;
-  padding: 0 100px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -29,7 +28,6 @@
   background-color: rgba(0, 0, 0, 0.685);
   border-top: 5px rgb(255, 255, 255) solid;
   border-bottom: 5px rgb(255, 255, 255) solid;
-  padding: 10px 20px;
   width: 100%;
   text-align: center;
 }

@@ -120,13 +120,16 @@
     visibility: visible;
     position: absolute;
     top: 75px;
-    right: -200px;
+    right: -220px;
     height: 300px;
     width: 200px;
-    background-color: rgba(26, 26, 26, 0.856);
+    background-color: rgba(0, 0, 0);
     z-index: 102;
     transition: 0.25s;
     flex-direction: column;
+    border-left: 2px white solid;
+    border-bottom: 2px white solid;
+    border-bottom-left-radius: 50px;
   }
 
   #menu-button {
@@ -135,7 +138,7 @@
     align-items: center;
     flex-direction: column;
     gap: 6px;
-    margin-right: 25px;
+    margin-right: 50px;
   }
 
   #toggle-menu:checked + #menu-button + #sidebar {
